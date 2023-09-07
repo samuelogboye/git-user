@@ -1,5 +1,5 @@
-from git_user import __version__
-from git_user import *
+from git_user23 import __version__
+from git_user23 import *
 
 FAILED = "Failed to fetch user data. Error: \
         404 Client Error: Not Found for url: \

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "git-user"
+name = "git-user23"
 version = "0.0.1"
 description = "A Python library for GitHub API integration. Retrieve user info, repositories, and more. Simplify GitHub-related tasks effortlessly."
 authors = ["Samuel Ogboye <ogboyesam@gmail.com>"]

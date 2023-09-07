@@ -42,7 +42,7 @@ Installation
 
 .. code:: bash
 
-   pip install git_user
+   pip install git_user23
 
 How to use
 ==========
@@ -55,7 +55,7 @@ spaces from the given username.
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> format_username("           samuelogboye")
    'samuelogboye'
    >>> format_username("     samuelogboye        ")
@@ -66,7 +66,7 @@ GitHub.
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> confirm_username("samuelogboye")
    True
    >>> confirm_username("samuelogboy")
@@ -77,7 +77,7 @@ and returns it as a dictionary.
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> get_response("samuelogboye")
    info
 
@@ -85,7 +85,7 @@ full_name(username) Retrieves the full name of the user
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> full_name("samuelogboye")
    'Samuel Ogboye'
 
@@ -93,7 +93,7 @@ twitter(username) Retrieves the twitter username of a user
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> twitter("samuelogboye")
    'samuel_ogboye'
 
@@ -101,7 +101,7 @@ repos(username) Retrieves a list of all repositories owned by the user.
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> repos("samuelogboye")
    list of repo
 
@@ -109,7 +109,7 @@ bio(username) Retrieves the bio of the user
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> bio("samuelogboye")
    'Software Engineer || Open Source || Technical Writer || C || Python'
 
@@ -117,7 +117,7 @@ location(username) Retrieves the location of the user.
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> location("samuelogboye")
    'Nigeria'
 
@@ -126,7 +126,7 @@ the user.
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> repo_count("samuelogboye")
    30
 
@@ -134,7 +134,7 @@ followers_count(username) Retrieves the count of followers of the user.
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> followers_count("samuelogboye")
    75
 
@@ -143,7 +143,7 @@ following.
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> following_count("samuelogboye")
    64
 
@@ -151,7 +151,7 @@ joined_date(username) Retrieves the date when the user joined GitHub.
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> joined_date("samuelogboye")
    '2023-02-16'
 
@@ -160,7 +160,7 @@ valid. Returns True or False
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> confirm_token("samuelogboye", *********)
    False
 
@@ -169,7 +169,7 @@ repository instantly with a README file and returns True if successful.
 
 .. code:: python
 
-   >>> from git_user import *
+   >>> from git_user23 import *
    >>> create_repo("samuelogboye", "******", "testing")
    True
 
