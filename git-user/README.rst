@@ -72,7 +72,7 @@ GitHub.
    >>> confirm_username("samuelogboy")
    False
 
-#get_response(username) Retrieves all user information from GitHub API
+get_response(username) Retrieves all user information from GitHub API
 and returns it as a dictionary.
 
 .. code:: python
@@ -164,7 +164,7 @@ valid. Returns True or False
    >>> confirm_token("samuelogboye", *********)
    False
 
-#create_repo(username, token, repo_name) Creates a public GitHub
+create_repo(username, token, repo_name) Creates a public GitHub
 repository instantly with a README file and returns True if successful.
 
 .. code:: python

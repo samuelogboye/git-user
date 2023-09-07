@@ -63,7 +63,7 @@ True
 False
 ```
 
-#get_response(username)
+get_response(username)
 Retrieves all user information from GitHub API and returns it as a dictionary.
 
 ```python
@@ -172,7 +172,7 @@ False
 
 ```
 
-#create_repo(username, token, repo_name)
+create_repo(username, token, repo_name)
 Creates a public GitHub repository instantly with a README file and returns True if successful.
 
 ```python
