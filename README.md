@@ -182,6 +182,10 @@ True
 
 ```
 
+### Documentation
+
+- You can check out the full documentation [here](https://samuelogboye.github.io/git-user/)
+
 ### Contribution
 
 Contributions are welcome
