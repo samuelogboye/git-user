@@ -182,8 +182,12 @@ True
 
 ```
 
-### API
-
 ### Contribution
 
+Contributions are welcome
+Notice a bug, let us know. Thanks
+
 ### Author
+
+- Main Maintainer: Samuel Ogboye
+- Jesus Saves
